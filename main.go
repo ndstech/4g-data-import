@@ -253,6 +253,8 @@ func processBatches(wg *sync.WaitGroup, C chan *batch) {
 		if err != nil {
 			panic(err)
 		}
+		
+		dbBench.MustExec("insert into lte_celllist2(unique_identifier, enodebname, cellid, cellname,enodebid) select distinct unique_id, ENODEBFUNCTIONNAME,LOCALCELLID,CELLNAME,ENODEBID from lte_lastday on conflict do nothing;")
 
 		if logBatches {
 			took := time.Now().Sub(start)
