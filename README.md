@@ -1,4 +1,4 @@
-### Modified version of [timescaledb-parallel-copy](https://github.com/timescale/timescaledb-parallel-copy) for specific purpose
+### Modified version of [timescaledb-parallel-copy](https://github.com/timescale/timescaledb-parallel-copy) for LTE hourly data
 
 
 #### How to install
