@@ -3,7 +3,7 @@
 
 #### How to install
 ```
-$ go get github.com/yogawa/lte-hourly
+$ go get github.com/yogawa/4g-data-import
 ```
 
 
