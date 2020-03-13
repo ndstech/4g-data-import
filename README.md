@@ -1,13 +1,13 @@
-### Modified version of [timescaledb-parallel-copy](https://github.com/timescale/timescaledb-parallel-copy) for LTE hourly data
+### 4G Data Import
 
 
 #### How to install
 ```
-$ go get github.com/yogawa/4g-data-import
+$ go get github.com/ndstech/4g-data-import
 ```
 
 
 #### How to use
 ```
-lte-hourly --connection "host=192.168.2.5 user=demo password=demo sslmode=disable" --db-name db_demo --table lte_hourly --file 20180801.csv --workers 4
+4g-data-import --connection "host=192.168.2.5 user=demo password=demo sslmode=disable" --db-name db_demo --table lte_hourly --file test.csv --workers 4
 ```
