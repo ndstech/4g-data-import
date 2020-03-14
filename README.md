@@ -3,7 +3,7 @@
 
 #### How to install
 ```
-$ go get github.com/ndstech/4g-data-import
+go get github.com/ndstech/4g-data-import
 ```
 
 
